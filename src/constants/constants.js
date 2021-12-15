@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: 'Buillding and Learning Linear Classifiers and Neural Networks',
+    title: 'Building and Training Linear Classifiers and Neural Networks',
     description: 'Implement linear classifiers and a neural network to feed \
     training data into. Program reads training data and outputs a decision boundary for classification purposes.',
     image: '/images/1_Z3Msm7PINQcol5hVWgKRFg.gif',
