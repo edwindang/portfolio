@@ -25,24 +25,24 @@ const Projects = () => (
     <SectionDivider />
       <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
-      {projects.map((project) => (
-        <BlogCard key={project.id}>
-          <Img src={project.image} />
+      {projects.map(({id, image, title, description, tags, source}) => (
+        <BlogCard key={id}>
+          <Img src={image} />
           <TitleContent>
-            <HeaderThree title>{project.title}</HeaderThree>
+            <HeaderThree title>{title}</HeaderThree>
             <Hr />
           </TitleContent>
-          <CardInfo>{project.description}</CardInfo>
+          <CardInfo>{description}</CardInfo>
           <div>
             <TitleContent>Stack</TitleContent>
             <TagList>
-              {project.tags.map((tag, i) => (
-              <Tag key={project.id}>{project.tags}</Tag>
+              {tags.map((tag, i) => (
+              <Tag key={i}>{tag}</Tag>
               ))}
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href = {project.source}>Source Code</ExternalLinks>
+            <ExternalLinks href = {source}>Source Code</ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}
