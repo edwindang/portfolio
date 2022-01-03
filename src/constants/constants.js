@@ -25,7 +25,7 @@ export const projects = [
     and affected subjects doing stroke rehabilitation functional. Presented results at a poster conference for the American Society of Neurorehabilitation (ASNR).',
     image: '/images/210301-occupationaltherapy-stock.jpg',
     tags: ['Python', 'Pandas', 'SciPy', 'Numpy', 'MatPlotLib'],
-    source: 'https://google.com',
+    source: 'https://github.com/edwindang/compensatory_movements',
     visit: 'https://google.com',
     id: 2,
   },

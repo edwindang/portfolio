@@ -13,7 +13,7 @@ const Hero = (props) => (
       <SectionText>
         I'm an aspiring software engineer with a background in data analytics and healthcare technology.
       </SectionText>
-      <Button onClick={() => window.open("https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:dcf0d32a-bf2e-41a8-b8dc-6be1c847217e#pageNum=1", "_blank")}>
+      <Button onClick={() => window.open("https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:baa9054c-70ec-44d7-a09d-cf126c363ed7", "_blank")}>
         Resume
       </Button>
     </LeftSection>
