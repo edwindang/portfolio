@@ -17,7 +17,7 @@ exports["default"] = void 0;
 
 var _react = _interopRequireDefault(__webpack_require__(689));
 
-var _head = _interopRequireDefault(__webpack_require__(429));
+var _head = _interopRequireDefault(__webpack_require__(957));
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -109,7 +109,7 @@ const styles = {
 
 /***/ }),
 
-/***/ 429:
+/***/ 957:
 /***/ ((module) => {
 
 module.exports = require("next/dist/shared/lib/head.js");
